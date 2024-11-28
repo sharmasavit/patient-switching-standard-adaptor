@@ -7,8 +7,8 @@ logging:
     uk.nhs.adaptors.connector.service: ${PS_LOGGING_LEVEL:INFO}
 spring:
   datasource:
-    url: ${PS_DB_URL:jdbc:postgresql://localhost:5436}/patient_switching
-    username: postgres
+    url: ${PS_DB_URL:jdbc:postgresql://localhost:5432}/patient_switching
+    username: myuser
     password: ${GP2GP_TRANSLATOR_USER_DB_PASSWORD:1234}
 
 management:
