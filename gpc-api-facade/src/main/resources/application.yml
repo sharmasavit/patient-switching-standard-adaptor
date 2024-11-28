@@ -23,7 +23,7 @@ spring:
       add-mappings: false
   datasource:
     url: ${PS_DB_URL:jdbc:postgresql://localhost:5432/patient_switching}
-    username: myuser
+    username: postgres
     password: ${GPC_FACADE_USER_DB_PASSWORD:1234}
 
 management:

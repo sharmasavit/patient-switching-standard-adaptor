@@ -8,7 +8,7 @@ logging:
 spring:
   datasource:
     url: ${PS_DB_URL:jdbc:postgresql://localhost:5432}/patient_switching
-    username: myuser
+    username: postgres
     password: ${GP2GP_TRANSLATOR_USER_DB_PASSWORD:1234}
 
 management:
