@@ -41,7 +41,7 @@ amqp:
   daisyChaining: ${PS_DAISY_CHAINING_ACTIVE:false}
 
 mhs:
-  url: ${MHS_BASE_URL:http://localhost:32769}
+  url: ${MHS_BASE_URL:http://localhost:32776}
 
 storage:
   type: ${STORAGE_TYPE:LocalMock}
