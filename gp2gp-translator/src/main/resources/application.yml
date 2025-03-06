@@ -38,7 +38,7 @@ amqp:
     broker: ${GP2GP_AMQP_BROKERS:amqp://localhost:5672}
     username: ${GP2GP_AMQP_USERNAME:guest}
     password: ${GP2GP_AMQP_PASSWORD:guest}
-  daisyChaining: ${PS_DAISY_CHAINING_ACTIVE:false}
+  daisyChaining: ${PS_DAISY_CHAINING_ACTIVE:true}
 
 mhs:
   url: ${MHS_BASE_URL:http://localhost:32776}
