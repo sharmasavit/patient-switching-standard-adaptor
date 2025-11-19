@@ -107,7 +107,7 @@ public class AmqpConfiguration {
     @NotNull
     private DefaultJmsListenerContainerFactory getDefaultJmsListenerContainerFactory(JmsConnectionFactory connectionFactory) {
         DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
-        factory.setSessionTransacted(false);
+        factory.setSessionTransacted(true);
         factory.setCacheLevel(CACHE_CONSUMER);
         factory.setConnectionFactory(connectionFactory);
         factory.setErrorHandler(listenerErrorHandler);
